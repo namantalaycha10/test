@@ -7,8 +7,8 @@ variable "ami" {
 }
 
 resource "aws_instance" "ArvindInstance" {
-	ami = var.ami
-	instance_type = var.instance_type
+	ami = "ami-0b69ea66ff7391e80"
+	instance_type = "t2.micro"
 	tags = {
 		Name = "Arvind_Terraform_Instance"
 	}
