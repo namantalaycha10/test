@@ -1,0 +1,3 @@
+[submodule "a1/swagger-codegen"]
+	path = a1/swagger-codegen
+	url = https://github.com/rockset/swagger-codegen.git
