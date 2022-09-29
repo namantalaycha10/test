@@ -20,7 +20,7 @@
 			"Value": "us-east-1"
 		},
 		"clusterName": {
-			"Value": "qa-test-cluster"
+			"Value": "ecs-tutorial"
 		},
 		"targetExecutionRole": {
 			"Value": "arn:aws:iam::479370281431:role/ecsInstanceRole"
