@@ -5,5 +5,13 @@
   "desiredCapacity": 1,
   "tags": [{"key": "key7", "value":  "value7"}, {"key": "key2", "value":  "value2"}],
   "availabilityZones": ["us-east-1a", "us-east-1b"]
-  "lifecycleHook": { "LifecycleHookName": "l1" }
+  "lifecycleHookSpecificationList" : [ {
+    "lifecycleHookName" : "lovish-lifecycle-hook-2",
+    "lifecycleTransition" : "autoscaling:EC2_INSTANCE_LAUNCHING",
+    "notificationMetadata" : null,
+    "heartbeatTimeout" : 3600,
+    "defaultResult" : "ABANDON",
+    "notificationTargetARN" : null,
+    "roleARN" : null
+  } ],
 }
