@@ -4,7 +4,7 @@
   "maxSize": 1,
   "desiredCapacity": 1,
   "tags": [{"key": "key7", "value":  "value7"}, {"key": "key2", "value":  "value2"}],
-  "availabilityZones": ["us-east-1a", "us-east-1b"]
+  "availabilityZones": ["us-east-1a", "us-east-1b"],
   "lifecycleHookSpecificationList" : [ {
     "lifecycleHookName" : "lovish-lifecycle-hook-2",
     "lifecycleTransition" : "autoscaling:EC2_INSTANCE_LAUNCHING",
