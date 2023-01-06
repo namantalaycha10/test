@@ -1,5 +1,4 @@
 {
-  "AutoScalingGroupName":"lovish1-asg",
   "policyName":"p2",
   "adjustmentType":"PercentChangeInCapacity",
   "scalingAdjustment":100
