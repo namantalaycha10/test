@@ -27,3 +27,14 @@ resource "harness_platform_connector_aws_secret_manager" "test" {
     inherit_from_delegate = true
   }
 }
+
+# Credential type anonymous
+resource "harness_platform_connector_oci_helm" "test" {
+  identifier  = "identifieroci"
+  name        = "name"
+  description = "test"
+  tags        = ["foo:bar"]
+
+  url                = "admin.azurecr.io"
+  delegate_selectors = ["harness-delegate"]
+}
